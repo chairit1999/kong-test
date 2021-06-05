@@ -2,7 +2,7 @@ apiVersion: configuration.konghq.com/v1
 kind: KongPlugin
 metadata:
   name: request-id
-labels:
+  labels:
     global: "true"
 config:
   header_name: my-request-id
