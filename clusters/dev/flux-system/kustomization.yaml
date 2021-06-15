@@ -3,4 +3,4 @@ kind: Kustomization
 resources:
 - gotk-components.yaml
 - gotk-sync.yaml
-- kong-deployment.yaml
+- ./app/kong-deployment.yaml
