@@ -4,11 +4,12 @@ metadata:
   name: demo
   annotations:
     kubernetes.io/ingress.class: kong
+    konghq.com/plugins: rl-by-ip\n
 spec:
   rules:
   - http:
       paths:
-      - path: /foo
+      - path: /bar
         backend:
           serviceName: echo
           servicePort: 80
