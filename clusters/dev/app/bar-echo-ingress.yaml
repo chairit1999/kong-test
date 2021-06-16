@@ -9,7 +9,7 @@ spec:
   rules:
   - http:
       paths:
-      - path: /bar1
+      - path: /bar
         backend:
           serviceName: echo
           servicePort: 80
