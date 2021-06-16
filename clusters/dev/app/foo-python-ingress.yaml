@@ -2,14 +2,14 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: fooo
+  name: foo
   namespace: default
 spec:
   ingressClassName: kong
   rules:
   - http:
       paths:
-      - path: /foo
+      - path: /foo1
         pathType: Prefix
         backend:
           service:
