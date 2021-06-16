@@ -27,7 +27,7 @@ metadata:
     app: foo-service
 spec:
   ports:
-  - port: 5001
+  - port: 5000
     name: http
     targetPort: 5000
   selector:
