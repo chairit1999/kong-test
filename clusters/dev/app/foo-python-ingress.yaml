@@ -9,7 +9,7 @@ spec:
   rules:
   - http:
       paths:
-      - path: /fooo
+      - path: /foo
         pathType: Prefix
         backend:
           service:
